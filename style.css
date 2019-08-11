@@ -1,0 +1,48 @@
+body {
+    background-image : linear-gradient(tomato,pink);
+    margin : auto;
+}
+
+h1 {
+    padding : 20px 20px 20px 20px;
+    border: red solid 3px;
+    text-align: center;
+    color: blueviolet;
+    margin : auto;
+    background-image: radial-gradient(white,gray);
+}
+
+input[type=text] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 80px 0;
+    box-sizing: border-box;
+    border-block-color: pink;
+    text-align : center;
+    font-size: 30px;
+    color: rgb(59, 31, 31);
+    margin : auto;
+    background-image:linear-gradient( rgb(156, 60, 60),lightcoral);
+}
+input[type=text]:hover{
+    background-image: radial-gradient(rgb(228, 138, 138),rgb(146, 62, 62));
+    font-size: 40px;
+}
+.middle{
+    text-align: center;
+    color : black;
+    font-size: 30px;
+    font-style: italic;
+    margin-top: 160px;
+}
+div:hover{
+    font-size: 25px;
+}
+.footer{
+    margin-left : 20%;
+    margin-right : 20%;
+    padding: 20px 20px;
+    background-image: radial-gradient(rgb(175, 68, 175),violet);
+    border-width: 2px;
+    text-align: center;
+}
