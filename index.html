@@ -1,0 +1,23 @@
+<html>
+<head>
+<link rel = "stylesheet" href = "style.css" type = "text/css"/>    
+<script>
+    function coordinate(event){
+        var x = event.clientX;
+        var y = event.clientY;
+        document.getElementById("X").value = x;
+        document.getElementById("Y").value = y;
+    }
+</script>
+</head>
+<body onmousemove="coordinate(event)">
+<h1>THE COORDINATES</h1>
+<div class = "middle">
+X coordinate <input type="text" id="X"><br><br>
+Y coordinate <input type="text" id="Y">
+</div><br><br><br><br>
+<div class = "footer">
+    <h2>HOVER YOUR MOUSE TO SEE ITS COORDINATES</h2>
+</div>
+</body>
+</html>
